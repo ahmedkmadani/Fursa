@@ -1,0 +1,232 @@
+/* 
+---------------------------------------------
+pages
+--------------------------------------------- 
+*/
+
+.page {
+	background: #fff;
+
+	.cover {
+		margin-top: 80px;
+		min-height: 270px;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&:before {
+			content: '';
+			position: absolute;
+			width: 140%;
+			height: 140%;
+			left: -20%;
+			top: -20%;
+			right: -20%;
+			bottom: -20%;
+			background-image: linear-gradient(127deg, $gradientDark 0%, $gradientLight 91%);
+			z-index: 2;
+			opacity: 0.7;
+		}
+
+		.page-top {
+			position: absolute;
+			width: 100%;
+			z-index: 3;
+			text-align: center;
+
+			h1 {
+				@include font($normal, 36px);
+				line-height: 46px;
+				letter-spacing: 1.4px;
+				color: #fff;
+				text-align: center;
+			}
+
+			.breadcrumb {
+				float: none;
+				@include radius(0px);
+				background: none;
+				padding: 0px;
+				margin: auto;
+				margin-top: 25px;
+				margin-bottom: 0px;
+				display: inline-block;
+				text-align: center;
+				background: #fff;
+				border-radius: 15px 100px 100px 15px;
+				padding-left: 20px;
+				padding-right: 20px;
+
+				li {
+					@include font($normal, 14px);
+					color: $textDark;
+					line-height: 30px;
+					margin-left: 10px;
+					display: inline-block;
+
+					&:after {
+						font-family: FontAwesome;
+						content: "\f105";
+						margin-left: 10px;
+						color: $textDark;
+					}
+
+					&:first-child {
+						margin-left: 0px;
+					}
+
+					&:last-child {
+						&:after {
+							content: '';
+							margin-left: 0px;
+						}
+					}
+
+					a {
+						@include font($normal, 14px);
+						color: $headingDark;
+					}
+				}
+			}
+		}
+	}
+
+	.page-bottom {
+		padding-top: 100px;
+		padding-bottom: 70px;
+		@include font($normal, 16px);
+		letter-spacing: 0.88px;
+		line-height: 28px;
+		color: $textDark;
+		background: #F9FAFF;
+
+		p {
+			margin-bottom: 28px;
+		}
+
+		.about {
+			position: relative;
+			float: left;
+			width: 100%;
+			margin-bottom: 100px;
+			text-align: center;
+
+			h2 {
+				font-size: 30px;
+				color: $headingDark;
+				margin-bottom: 30px;
+			}
+
+			h5 {
+				font-style: italic;
+				font-size: 20px;
+				color: $textDark;
+				letter-spacing: 1.25px;
+				text-align: center;
+				line-height: 28px;
+				margin-top: -20px;
+			}
+
+			.about-image {
+				min-height: 500px;
+				position: relative;
+				margin-top: 50px;
+				margin-bottom: 80px;
+
+				.img-1 {
+					position: absolute;
+					left: 0px;
+					top: 0px;
+					z-index: 2;
+					@include radius(5px);
+					overflow: hidden;
+					box-shadow: 0 2px 48px 0 rgba(0,0,0,0.13);
+				}
+
+				.img-2 {
+					position: absolute;
+					right: 0px;
+					bottom: 0px;
+					z-index: 1;
+					@include radius(5px);
+					overflow: hidden;
+					box-shadow: 0 2px 48px 0 rgba(0,0,0,0.13);
+				}
+			}
+		}
+
+		.features-small-item {
+			margin-bottom: 60px;
+			
+			p {
+				margin-bottom: 20px !important;
+			}
+		}
+
+		.page-detail {
+			.about {
+				margin-bottom: 30px !important;
+
+				.about-image {
+					border-radius: 30px 5px 30px 30px;
+
+					&:before {
+						display: none;
+					}
+				}
+
+				.about-text {
+					border-radius: 30px 5px 30px 30px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width : 991px) {
+	.page {
+		.cover {
+			margin-top: 80px;
+
+			h1 {
+				font-size: 26px !important;
+				line-height: 36px !important;
+				height: auto !important;
+				padding-bottom: 15px;
+			}
+
+			.page-top {
+				text-align: center;
+
+				.breadcrumb {
+					float: none;
+					text-align: center;
+
+					li {
+						display: inline;
+					}
+				}
+			}
+		}
+
+		.page-bottom {
+
+			.about {
+				.about-image {
+					height: auto;
+
+					.img-1 {
+						position: relative;
+						margin-bottom: 30px;
+					}
+
+					.img-2 {
+						position: relative;
+					}
+				}
+			}
+		}
+	}	
+}
