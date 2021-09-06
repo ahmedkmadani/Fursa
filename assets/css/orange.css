@@ -140,7 +140,7 @@ body {
 .left-heading .section-title {
   font-weight: 400;
   font-size: 28px;
-  color: #3B566E;
+  color: #1D4F91;
   letter-spacing: 1.75px;
   height: 45px;
   margin-bottom: 30px;
@@ -180,7 +180,7 @@ body {
 .center-heading .section-title {
   font-weight: 400;
   font-size: 28px;
-  color: #3B566E;
+  color: #1D4F91;
   letter-spacing: 1.75px;
   line-height: 38px;
   margin-bottom: 20px;
@@ -205,13 +205,14 @@ body {
 }
 
 .center-text p {
+  color: #1D4F91;
   margin-bottom: 30px;
 }
 
 .left-text {
   font-weight: 400;
   font-size: 16px;
-  color: #6F8BA4;
+  color: #1D4F91;
   line-height: 28px;
   letter-spacing: 1px;
 }
@@ -583,7 +584,7 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 14px;
   color: white;
   -webkit-transition: all 0.3s ease 0s;
@@ -969,7 +970,7 @@ header
 }
 
 .header-area.header-white .nav li a {
-  color: #3B566E;
+  color: #1D4F91;
 }
 
 .header-area.header-white .nav li a:hover {
@@ -1081,7 +1082,7 @@ header
     padding-left: 30px !important;
     border: none !important;
     background: #fff !important;
-    color: black !important;
+    color:#1D4F91 !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #f5f5f5 !important;
@@ -1444,7 +1445,7 @@ features
 }
 
 .features-small-item .features-title {
-  font-weight: 100;
+  font-weight: 400;
   font-size: 16px;
   color: #1D4F91;
   letter-spacing: 0.7px;
@@ -1458,7 +1459,7 @@ features
 }
 
 .features-small-item p {
-  font-weight: 400;
+  font-weight: 100;
   font-size: 14px;
   color: #1D4F91;
   letter-spacing: 0.88px;
@@ -2503,7 +2504,7 @@ pages
 .page .cover .page-top .breadcrumb li {
   font-weight: 400;
   font-size: 14px;
-  color: #6F8BA4;
+  color: #1D4F91;
   line-height: 30px;
   margin-left: 10px;
   display: inline-block;
@@ -2513,7 +2514,7 @@ pages
   font-family: FontAwesome;
   content: "\f105";
   margin-left: 10px;
-  color: #6F8BA4;
+  color: #1D4F91;
 }
 
 .page .cover .page-top .breadcrumb li:first-child {
@@ -2528,7 +2529,7 @@ pages
 .page .cover .page-top .breadcrumb li a {
   font-weight: 400;
   font-size: 14px;
-  color: #3B566E;
+  color: #1D4F91;
 }
 
 .page .page-bottom {
@@ -2556,7 +2557,7 @@ pages
 
 .page .page-bottom .about h2 {
   font-size: 30px;
-  color: #3B566E;
+  color: #1D4F91;
   margin-bottom: 30px;
 }
 
@@ -2635,6 +2636,10 @@ pages
 
 .page .page-bottom .page-detail .about .about-image:before {
   display: none;
+}
+
+.page-detail p {
+  color: #1D4F91;
 }
 
 .page .page-bottom .page-detail .about .about-text {
@@ -3090,7 +3095,7 @@ contact
 .contact-bottom .contact-text {
   font-weight: 400;
   font-size: 14px;
-  color: #6F8BA4;
+  color: #1D4F91;
   letter-spacing: 0.6px;
   line-height: 26px;
 }
