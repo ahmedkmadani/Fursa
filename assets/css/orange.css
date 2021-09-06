@@ -154,7 +154,7 @@ body {
   left: 0px;
   width: 19px;
   height: 2px;
-  background: #FA2850;
+  background: #19c0ff;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
@@ -167,7 +167,7 @@ body {
   left: 20px;
   width: 9px;
   height: 2px;
-  background: #FA2850;
+  background: #19c0ff;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
@@ -270,7 +270,7 @@ body {
   height: 44px;
   line-height: 45px;
   text-align: center;
-  box-shadow: 0 1px 0.5px 0 #fbb205;
+  box-shadow: 0 1px 0.5px 0 white;
   border: none;
   border-radius: 15px 100px 100px 15px;
   /* background-image: linear-gradient(135deg, #FF1262 0%, #EC691F 100%); */
@@ -281,7 +281,7 @@ body {
   margin-bottom: 40px;
   font-weight: 700;
   font-size: 12px;
-  color: black;
+  color: white;
   letter-spacing: 0.75px;
   text-transform: uppercase;
   -webkit-transition: background 1s ease-out;
@@ -333,7 +333,7 @@ body {
   display: inline-block;
   height: 40px;
   line-height: 40px;
-  box-shadow: 0 0.5px 0.5px 0 #19c0ff;
+  box-shadow: 0 0.5px 0.5px 0 #fcb401;
   border-radius: 15px 100px 100px 15px;
   background: #fff;
   margin-bottom: 20px;
@@ -530,11 +530,14 @@ header
 }
 
 .header-area .main-nav .logo {
+  margin-top: 28px;
+  margin-bottom: 20px;
   float: left;
   position: relative;
-    width: 170px;
-    left: 15px;
-    background-size: contain;
+  height: 30px;
+  width: 170px;
+  left: 15px;
+  background-size: contain;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1323,7 +1326,7 @@ welcome
   .welcome-area .header-text .btn-primary-line {
     margin: auto;
     border: 1px solid black;
-    background: #fff;
+    background: #f82b60;
     color: #FA2850;
     height: 40px;
     line-height: 40px;
@@ -1371,7 +1374,7 @@ features
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #2b2b2b;
+  background: #19c0ff;
   /* background-image: url(/assets/images/back.svg); */
   /* background-image: linear-gradient(13deg, #f82b60  80%, #fcb401 60%); */
   /* background-image: radial-gradient(circle at 98% 35%, transparent 67%, #fff 67.5%),
@@ -1415,18 +1418,18 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 20px;
-  background: #FFE8ED;
+  background: white;
   border-radius: 5px;
 }
 
+
 .features-small-item .icon i {
-  font-size: 18px;
-  color: #19c0ff
-  ;
+  font-size: 34px;
+  color: #19c0ff;
 }
 
 .features-small-item .features-title {
-  font-weight: 400;
+  font-weight: 100;
   font-size: 16px;
   color: #3B566E;
   letter-spacing: 0.7px;
@@ -1510,7 +1513,7 @@ parallax
   /* background-image: linear-gradient(127deg, #FF1262 0%, #EC691F 91%); */
   background-image:
   radial-gradient(56% 170% at bottom right,transparent 100%, #f82b60  100%),
-  linear-gradient(135deg, #fcb401 0%, #fcb401  80%);  z-index: 2;
+  linear-gradient(135deg, #fcb401 0%, #19c0ff 80%);  z-index: 2;
   top: -20%;
   left: -20%;
 }
@@ -1563,7 +1566,7 @@ parallax
   /* background: #f82b60; */
   background-image:
   radial-gradient(56% 170% at bottom right,transparent 100%, #f82b60 100%),
-  linear-gradient(135deg, #fcb401 0%, #fcb401  80%);
+  linear-gradient(135deg, #fcb401 0%, #19c0ff  80%);
     /* background-image: linear-gradient(0deg, #f82b60 50%, #fff 50%); */
   z-index: 2;
   top: -20%;
@@ -2996,7 +2999,7 @@ contact
   /* background-image: linear-gradient(135deg, #FF1262 0%, #EC691F 100%); */
   background-image:
   radial-gradient(56% 170% at bottom right,transparent 100%, #f82b60 100%),
-  linear-gradient(135deg, #fcb401 0%, #fcb401  80%);  /* box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06); */
+  linear-gradient(135deg, #fcb401 0%, #19c0ff  80%);  /* box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06); */
   box-shadow: 0 0.5px 0.5px 0 #fcb401;
   border-radius: 15px 100px 100px 15px;
   padding: 30px;
