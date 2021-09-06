@@ -270,7 +270,7 @@ body {
   height: 44px;
   line-height: 45px;
   text-align: center;
-  box-shadow: 0 1px 0.5px 0 #19c0ff;
+  box-shadow: 0 1px 0.5px 0 #fbb205;
   border: none;
   border-radius: 15px 100px 100px 15px;
   /* background-image: linear-gradient(135deg, #FF1262 0%, #EC691F 100%); */
@@ -281,7 +281,7 @@ body {
   margin-bottom: 40px;
   font-weight: 700;
   font-size: 12px;
-  color: #f82b60;
+  color: black;
   letter-spacing: 0.75px;
   text-transform: uppercase;
   -webkit-transition: background 1s ease-out;
@@ -333,7 +333,7 @@ body {
   display: inline-block;
   height: 40px;
   line-height: 40px;
-  box-shadow: 0 0.5px 0.5px 0 #fcb401;
+  box-shadow: 0 0.5px 0.5px 0 #19c0ff;
   border-radius: 15px 100px 100px 15px;
   background: #fff;
   margin-bottom: 20px;
@@ -531,7 +531,10 @@ header
 
 .header-area .main-nav .logo {
   float: left;
-  margin-top: 27px;
+  position: relative;
+    width: 170px;
+    left: 15px;
+    background-size: contain;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -566,7 +569,7 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 14px;
   color: white;
   -webkit-transition: all 0.3s ease 0s;
@@ -780,7 +783,7 @@ header
   margin-top: 5px;
   line-height: 29px;
   letter-spacing: 0.5px;
-  background: none;
+  background: black;
   color: #fff;
   position: relative;
   overflow: hidden;
@@ -829,8 +832,8 @@ header
   margin-top: 5px;
   line-height: 29px;
   letter-spacing: 0.5px;
-  background: #fff;
-  color: #FA2850;
+  background: #FA2850;
+  color: white;
   position: relative;
   overflow: hidden;
   margin-left: 15px;
@@ -908,7 +911,7 @@ header
 
 .header-area.header-sticky .header-buttons li .btn-nav-line {
   border: 1px solid #FA2850;
-  color: #FA2850;
+  color: white;
   margin-top: 24px;
 }
 
@@ -1062,7 +1065,7 @@ header
     padding-left: 30px !important;
     border: none !important;
     background: #fff !important;
-    color: #3B566E !important;
+    color: black !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #f5f5f5 !important;
@@ -1089,7 +1092,7 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
-    color: #3B566E;
+    color: black;
     right: 25px;
     font-size: 14px;
     top: 15px;
@@ -1116,9 +1119,13 @@ welcome
 .welcome-area {
   overflow: hidden;
   position: relative;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+  height: 500px;
+  position: relative;
+  z-index: 0;
+  height: 700px;
+  background-image: url('/assets/images/bg_header.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .welcome-area:after {
@@ -1132,7 +1139,7 @@ welcome
 
 .welcome-area .right-bg {
   float: right;
-  width: 100%;
+  width: 50%;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -1148,7 +1155,7 @@ welcome
   height: 100%;
   z-index: 1;
   /* background-image: linear-gradient(135deg, #FF1262 0%, #EC691F 100%); */
-  background: #fcb401;
+  /* background: #c8c8c8; */
   /* opacity: .09; */
 }
 
@@ -1177,7 +1184,7 @@ welcome
 }
 
 .welcome-area .header-text h1 span {
-  color: #FA2850;
+  color: white;
 }
 
 .welcome-area .header-text p {
@@ -1300,14 +1307,14 @@ welcome
     line-height: 30px !important;
     margin-bottom: 10px !important;
     text-align: center;
-    color: #fff;
+    color: black;
   }
   .welcome-area .header-text h1 span {
-    color: #fff;
+    color: black;
   }
   .welcome-area .header-text p {
     text-align: center;
-    color: #fff;
+    color: black;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 0px;
@@ -1315,7 +1322,7 @@ welcome
   }
   .welcome-area .header-text .btn-primary-line {
     margin: auto;
-    border: 1px solid #fff;
+    border: 1px solid black;
     background: #fff;
     color: #FA2850;
     height: 40px;
@@ -1364,13 +1371,15 @@ features
   height: 100%;
   top: 0px;
   left: 0px;
+  background: #2b2b2b;
   /* background-image: url(/assets/images/back.svg); */
   /* background-image: linear-gradient(13deg, #f82b60  80%, #fcb401 60%); */
   /* background-image: radial-gradient(circle at 98% 35%, transparent 67%, #fff 67.5%),
   linear-gradient(0deg, #51a595 90%, #3fcfa2 100%); */
-  background-image:
-  radial-gradient(78% 120% at bottom right,transparent 100%, #f82b60 100%),
-  linear-gradient(135deg, #fcb401 0%, #fcb401  80%);
+  /* background-image: #c8c8c8; */
+  /* radial-gradient(78% 120% at bottom right,transparent 100%, #040404
+  100%),
+  linear-gradient(135deg, #fcb401 0%, #fcb401  80%); */
   /* background: #f82b60; */
   /* background: rgba(25,192,255,255); */
   -webkit-transition: all 0.3s ease 0s;
@@ -1412,7 +1421,8 @@ features
 
 .features-small-item .icon i {
   font-size: 18px;
-  color: #f82b60;
+  color: #19c0ff
+  ;
 }
 
 .features-small-item .features-title {
@@ -2330,7 +2340,7 @@ footer .footer-nav li a i {
   line-height: 32px;
   margin-right: 12px;
   font-size: 14px;
-  color: #3B566E;
+  color: black;
 }
 
 footer .footer-nav li a span {
@@ -2339,7 +2349,7 @@ footer .footer-nav li a span {
   line-height: 32px;
   font-weight: 400;
   font-size: 14px;
-  color: #6F8BA4;
+  color: black;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
