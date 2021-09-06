@@ -270,7 +270,7 @@ body {
   height: 44px;
   line-height: 45px;
   text-align: center;
-  border: 0.5px solid white;
+  /* border: 0.5px solid white; */
   border-radius: 15px 100px 100px 15px;
   /* background-image: linear-gradient(135deg, #FF1262 0%, #EC691F 100%); */
   /* background-image: linear-gradient(135deg, #1bc3fc 0%, #fbb205 100%); */
