@@ -154,7 +154,7 @@ body {
   left: 0px;
   width: 19px;
   height: 2px;
-  background: #19c0ff;
+  background: #1D4F91;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
@@ -167,7 +167,7 @@ body {
   left: 20px;
   width: 9px;
   height: 2px;
-  background: #19c0ff;
+  background: #1D4F91;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
@@ -333,7 +333,7 @@ body {
   display: inline-block;
   height: 40px;
   line-height: 40px;
-  box-shadow: 0 0.5px 0.5px 0 #fcb401;
+  box-shadow: 0 0.5px 0.5px 0 #1D4F91;
   border-radius: 15px 100px 100px 15px;
   background: #fff;
   margin-bottom: 20px;
@@ -1374,7 +1374,7 @@ features
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #19c0ff;
+  background: #1D4F91;
   /* background-image: url(/assets/images/back.svg); */
   /* background-image: linear-gradient(13deg, #f82b60  80%, #fcb401 60%); */
   /* background-image: radial-gradient(circle at 98% 35%, transparent 67%, #fff 67.5%),
@@ -1425,13 +1425,13 @@ features
 
 .features-small-item .icon i {
   font-size: 34px;
-  color: #19c0ff;
+  color: #1D4F91;
 }
 
 .features-small-item .features-title {
   font-weight: 100;
   font-size: 16px;
-  color: #3B566E;
+  color: #1D4F91;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -1445,7 +1445,7 @@ features
 .features-small-item p {
   font-weight: 400;
   font-size: 14px;
-  color: #6F8BA4;
+  color: #1D4F91;
   letter-spacing: 0.88px;
   line-height: 26px;
   position: relative;
@@ -1513,7 +1513,7 @@ parallax
   /* background-image: linear-gradient(127deg, #FF1262 0%, #EC691F 91%); */
   background-image:
   radial-gradient(56% 170% at bottom right,transparent 100%, #f82b60  100%),
-  linear-gradient(135deg, #fcb401 0%, #19c0ff 80%);  z-index: 2;
+  linear-gradient(135deg, #1D4F91 0%, #1D4F91 100%);  z-index: 2;
   top: -20%;
   left: -20%;
 }
@@ -1566,7 +1566,7 @@ parallax
   /* background: #f82b60; */
   background-image:
   radial-gradient(56% 170% at bottom right,transparent 100%, #f82b60 100%),
-  linear-gradient(135deg, #fcb401 0%, #19c0ff  80%);
+  linear-gradient(135deg, #1D4F91 0%, #1D4F91  100%);
     /* background-image: linear-gradient(0deg, #f82b60 50%, #fff 50%); */
   z-index: 2;
   top: -20%;
@@ -2999,7 +2999,7 @@ contact
   /* background-image: linear-gradient(135deg, #FF1262 0%, #EC691F 100%); */
   background-image:
   radial-gradient(56% 170% at bottom right,transparent 100%, #f82b60 100%),
-  linear-gradient(135deg, #fcb401 0%, #19c0ff  80%);  /* box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06); */
+  linear-gradient(135deg, #1D4F91 0%, #1D4F91  80%);  /* box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06); */
   box-shadow: 0 0.5px 0.5px 0 #fcb401;
   border-radius: 15px 100px 100px 15px;
   padding: 30px;
