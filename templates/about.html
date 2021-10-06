@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+{% block content %}
+
+	<section class="page">
+		<!-- ***** Page Top Start ***** -->
+		<div class="cover">
+			<div class="page-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<h1>About Us</h1>
+						</div>
+						<div class="col-lg-12">
+							<ol class="breadcrumb">
+								<li><a href="{{ url_for('index') }}">Home</a></li>
+								<li class="active">About Us</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ***** Page Top End ***** -->
+
+		<!-- ***** Page Content Start ***** -->
+		<div class="page-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="about">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="center-heading">
+										<h2 class="section-title">Our Mission</h2>
+									</div>
+								</div>
+								<div class="offset-lg-3 col-lg-6">
+									<div class="center-text">
+										<p>To build end to end cutting-edge solutions through managed services, cloud and selected leading products to create the right environment, team and systems for our customers to be transformed digitally.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="center-heading">
+										<h2 class="section-title">Our Vision</h2>
+									</div>
+								</div>
+								<div class="offset-lg-3 col-lg-6">
+									<div class="center-text">
+										<p>To be recognized as digital transformation partner by adding value to our customers and to our society.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="offset-lg-2 col-lg-8">
+									<h2>Who are we ?</h2>
+									<p style="color: #1D4F91;">
+										Fursa is founded in 2012 and is a company specializing in the implementation of telecommunications and information technology projects managed by experts in the fields of technology and project management.</p>
+										<p style="color: #1D4F91;">In line with his highness
+										Crown Prince Mohammed bin Salman vision to advance the technology sector,
+										contribute and participate in the renaissance of digital transformation
+									</p>
+								</div>
+								<div class="col-lg-12">
+									<div class="about-image">
+										<div class="img-1">
+											<img src="{{ url_for('static', filename='assets/images/mbs.jpeg') }}" style="width: 600px; height: 400px;" class="img-fluid" alt="">
+										</div>
+										<div class="img-2">
+											<img src="{{ url_for('static', filename='assets/images/vision.jpeg') }}" style="width: 600px; height: 400px;" class="img-fluid" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="offset-lg-2 col-lg-8">
+									<p style="color: #1D4F91;">"My primary goal is to be an exemplary and leading nation in all aspects, and I will work with you in achieving this endeavour."</p>
+									<h5 style="color: #1D4F91;">Custodian of the Two Holy Mosques King Salman Bin Abdulaziz Al-Saud</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row padding-bottom-10">
+					<!-- ***** Team Item End ***** -->
+				</div>
+			</div>
+
+		</div>
+		<!-- ***** Page Content End ***** -->
+
+	</section>
+
+{% endblock content %}

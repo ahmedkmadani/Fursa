@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+{% block content %}
+	<section class="page">
+		<!-- ***** Page Top Start ***** -->
+		<div class="cover">
+			<div class="page-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<h1>Data Center & Microsoft Solutions</h1>
+						</div>
+						<div class="col-lg-12">
+							<ol class="breadcrumb">
+								<li><a href="{{ url_for('index') }}">Home</a></li>
+								<li><a href="orange-features.html">Services</a></li>
+								<li class="active">Data Center & Microsoft Solutions</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ***** Page Top End ***** -->
+
+
+		<!-- ***** Page Content Start ***** -->
+		<div class="page-bottom">
+			<div class="container">
+				<div class="row">
+					<!-- ***** Page Content Start ***** -->
+					<div class="col-lg-8 col-md-12 col-sm-12">
+						<div class="page-detail">
+							<p>A data center is a facility used to house computer systems and associated components, such as telecommunications and storage systems.</p>
+							<p>It generally
+								includes redundant or backup power supplies, redundant data communications connections,
+								environmental controls (e.g., air conditioning, fire suppression) and various security devices. Large data centers are industrial scale operations using as much electricity as a small town.</p>
+							<img src="{{ url_for('static', filename='assets/images/datacenter.jpeg') }}" class="img-fluid margin-bottom-30 service-image" alt="">
+
+							<!-- <h4 style="padding-bottom: 20px;"> Design :</h4> -->
+
+							<p>A data center can occupy one room of a building, one or more floors, or an entire building. Most of the equipment
+								is often in the form of servers mounted in 19 inch rack cabinets, which are usually placed in single rows forming corridors (so-called aisles) between them. This allows people access to the front and rear of each cabinet. Servers differ
+								greatly in size from 1U servers to large freestanding storage silos which occupy many square feet of floor space.</p>
+								<p>Some equipment such as mainframe computers and storage devices are often as big as the racks themselves,
+								and are placed alongside them. Very large data centers may use shipping containers packed with 1,000 or more servers each; when repairs or upgrades are needed, whole containers are replaced (rather than repairing individual servers)</p>
+
+							<!-- ***** Gallery Start ***** -->
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<a href="https://www.microsoft.com/en-sa" class="page-gallery" title="Manage In One Place">
+										<img style="max-width:100%; max-height:100%;"  src="{{ url_for('static', filename='assets/images/micro.jpeg') }}" alt="">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<a href="https://azure.microsoft.com/en-us/" class="page-gallery" title="Manage In One Place">
+										<img style="max-width:100%; max-height:100%;" src="{{ url_for('static', filename='assets/images/microsoft-azure.png') }}" alt="">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<a href="https://www.oracle.com/sa/index.html" class="page-gallery" title="Manage In One Place">
+										<img style="max-width:100%; max-height:100%;"  src="{{ url_for('static', filename='assets/images/orcal.jpeg') }}" alt="">
+									</a>
+								</div>
+							</div>
+							<!-- ***** Gallery End ***** -->
+							<!-- <h4 style="padding-bottom: 20px;"> Our Modeling Criteria :</h4> -->
+							<p>Modeling criteria are used to develop future-state scenarios for space, power, cooling, and costs in the data center. The aim is to create a master plan with parameters such as number, size, location, topology,
+								IT floor system layouts, and power and cooling technology and configurations.</p>
+								<p>purpose of this is to allow for efficient use of the existing mechanical and electrical systems and also
+								growth in the existing data center without the need for developing new buildings and further upgrading of incoming power supply </p>
+						</div>
+					</div>
+					<!-- ***** Page Content End ***** -->
+
+					<!-- ***** Aside Start ***** -->
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<aside class="default-aside">
+							<div class="sidebar">
+								<ul>
+									<li><a href="{{ url_for('professional_services') }}">Professional Services</a></li>
+									<li ><a href="{{ url_for('it_iot_solution') }}">IT & IOT Solutions</a></li>
+									<li ><a href="{{ url_for('odoo_erp') }}">ERP Systems</a></li>
+									<li ><a href="{{ url_for('vms') }}">VMS Systems</a></li>
+									<li><a href="{{ url_for('cctv_system') }}">CCTV Systems</a></li>
+									<li  class="active"><a href="{{ url_for('data_center') }}">Data Center & Microsoft Solutions</a></li>
+								</ul>
+
+								<div class="box">
+									<img src="{{ url_for('static', filename='assets/images/photos/about/1.jpg') }}" alt="">
+									<div class="hovered align-self-center">
+										<p>You can contact us for purchase, installation and customizations. </p>
+										<a href="{{ url_for('contact') }}" class="btn-white-line">Contact Us</a>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+					<!-- ***** Aside End ***** -->
+				</div>
+			</div>
+		</div>
+		<!-- ***** Page Content End ***** -->
+	</section>
+{% endblock content %}

@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+{% block content %}
+
+	<section class="page">
+		<!-- ***** Page Top Start ***** -->
+		<div class="cover">
+			<div class="page-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<h1>CCTV Systems</h1>
+						</div>
+						<div class="col-lg-12">
+							<ol class="breadcrumb">
+								<li><a href="{{ url_for('index') }}">Home</a></li>
+								<li><a href="orange-features.html">Services</a></li>
+								<li class="active">CCTV Systems</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ***** Page Top End ***** -->
+
+
+		<!-- ***** Page Content Start ***** -->
+		<div class="page-bottom">
+			<div class="container">
+				<div class="row">
+					<!-- ***** Page Content Start ***** -->
+					<div class="col-lg-8 col-md-12 col-sm-12">
+						<div class="page-detail">
+							<p>Closed Circuit Television Systems (CCTV) are primarily used as a key
+								public circulation monitoring tool, positioned in key locations identified by each
+								specific requirement to aid the match day stadium safety and security operation out of hours.</p>
+								<p>As a rule of thumb for larger object distances, fully functional Pan, Tilt, Zoom camera used, along with fixed position cameras in entry/ exit routes</p>
+
+							<img src="assets/images/cctv.jpeg" class="img-fluid margin-bottom-30 service-image" alt="">
+
+							<p>IP Video Management technology makes it possible to use video surveillance
+								not only for security and safety, but for all kinds of uses to cost-effectively monitor
+								operations for business optimization and process improvement.</p>
+
+								<p>The open architecture of video management systems means that industries
+								can create custom solutions and incorporate new technology as it is developed to solve
+								any challenge their business is facing. Different industries have different needs and VMS
+								products combined with third-party partner solutions provide a complete surveillance and security solution.</p>
+
+							<!-- ***** Gallery Start ***** -->
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<a href="https://www.americandynamics.net/" class="page-gallery" title="Manage In One Place">
+										<img style="max-width:100%; max-height:100%;" src="assets/images/american_dynamics.png" alt="">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<a href="https://www.samsung.com/sa_en/" class="page-gallery" title="Manage In One Place">
+										<img style="max-width:100%; max-height:100%;" src="assets/images/sam.png" alt="">
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<a href="https://www.panasonic.com/middleeast/en/support/local-warranty-in-middle-east/saudi-arabia.html" class="page-gallery" title="Manage In One Place">
+										<img style="max-width:100%; max-height:100%;" src="assets/images/pan.png" alt="">
+									</a>
+								</div>
+							</div>
+							<!-- ***** Gallery End ***** -->
+
+							<p>Our experts site implementation engineers with a more than 40 years of experience in implementation, maintenance and commissioning of different low current vendors equipment’s
+								(Axis, Avigilon, Pelco, Aventura, AmericanDynamecs, Samsung and Panasonic ect.) with all professional work levelsstarting
+								from ( Design, BOQ Take Off Consultant Approval , Implementation , Testing and commissioning, system hand over).</p>
+						</div>
+					</div>
+					<!-- ***** Page Content End ***** -->
+
+					<!-- ***** Aside Start ***** -->
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<aside class="default-aside">
+							<div class="sidebar">
+								<ul>
+									<li><a href="{{ url_for('professional_services') }}">Professional Services</a></li>
+									<li ><a href="{{ url_for('it_iot_solution') }}">IT & IOT Solutions</a></li>
+									<li ><a href="{{ url_for('odoo_erp') }}">ERP Systems</a></li>
+									<li ><a href="{{ url_for('vms') }}">VMS Systems</a></li>
+									<li class="active"><a href="{{ url_for('professional_services') }}">CCTV Systems</a></li>
+									<li><a href="{{ url_for('data_center') }}">Data Center & Microsoft Solutions</a></li>
+								</ul>
+
+								<div class="box">
+									<img src="{{ url_for('static', filename='assets/images/photos/about/1.jpg') }}" alt="">
+									<div class="hovered align-self-center">
+										<p>You can contact us for purchase, installation and customizations. </p>
+										<a href="{{ url_for('contact') }}" class="btn-white-line">Contact Us</a>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+					<!-- ***** Aside End ***** -->
+				</div>
+			</div>
+		</div>
+		<!-- ***** Page Content End ***** -->
+	</section>
+{% endblock content %}
