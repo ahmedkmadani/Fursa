@@ -3281,6 +3281,36 @@ preloader
   }
 }
 
+@media only screen and (max-width: 1190px) {
+  .header-area .main-nav .header-buttons li .btn-nav-primary {
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px solid #FFFFFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    margin-top: 5px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    background: #FA2850;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 12px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    min-width: 110px;
+    text-align: center;
+  }
+}
+
 .animated>div {
   opacity: 0;
   height: 0px;
